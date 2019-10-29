@@ -1,13 +1,20 @@
 
-body {
-  background-color: blue;
-}
-
+    body {
+      background-color: black;
+      margin: 10px;
+      text-align: center;
+    }
+    
 .title {
   color: blue;
 }
-
-video {
-  height: 500px;
-  /*max-width: 70%;
-}
+    video {
+      max-width: 50%;
+      margin: 50px;
+    }
+    
+    .container {
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
